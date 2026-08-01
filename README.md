@@ -4,7 +4,7 @@ An AI travel planning assistant built with Dify Agent and LLM.
 
 ## Project Overview
 
-AI Travel Planner Agent can generate executable travel plans based on user requirements.
+AI Travel Planner Agent generates executable travel plans based on user requirements.
 
 Users can provide:
 
@@ -14,7 +14,6 @@ Users can provide:
 - Budget
 - Travel style
 - Interests
-
 
 The Agent generates:
 
@@ -26,17 +25,43 @@ The Agent generates:
 - Budget feasibility analysis
 
 
+## Architecture
+
+User Input
+
+↓
+
+Requirement Understanding
+
+↓
+
+Budget Feasibility Analysis
+
+↓
+
+Knowledge Base Retrieval
+
+↓
+
+Travel Plan Generation
+
+↓
+
+Final Validation
+
+
 ## Core Features
 
 ### 1. Travel Requirement Understanding
 
-Extracts important travel parameters:
+Extracts key travel parameters:
 
 - Destination
 - Date
 - Duration
 - Budget
 - Travelers
+- Travel preferences
 
 
 ### 2. Budget Feasibility Analysis
@@ -44,81 +69,98 @@ Extracts important travel parameters:
 The Agent evaluates:
 
 - Whether the budget is realistic
-- Budget gap
+- Budget shortage
 - Possible adjustments
 
 
-### 3. Knowledge Base Enhancement
+### 3. Multi-city Travel Planning
 
-Uses travel knowledge base to provide:
+Supports:
 
-- Destination information
-- Travel rules
-- Planning guidelines
+- Multi-city routes
+- Accommodation allocation
+- Transportation planning
+- Daily itinerary generation
 
 
-### 4. AI Agent Workflow
+### 4. Constraint Validation
 
-Architecture:
+Checks:
 
-User Input
+- Date consistency
+- Travel duration
+- Budget conflicts
+- Logical itinerary issues
 
-↓
 
-Dify Agent
+## Testing
 
-↓
+### Normal Case
 
-Knowledge Retrieval
+Input:
 
-↓
+Paris → Interlaken → Milan
 
-Budget Calculation Tool
+10 days, 2 travelers, budget 20,000 RMB
 
-↓
 
-Travel Plan Generation
+Result:
+
+Generated complete travel plan including:
+
+- Route
+- Daily itinerary
+- Budget analysis
+- Accommodation suggestions
+
+
+### Budget Conflict Case
+
+Input:
+
+Budget: 5,000 RMB
+
+
+Result:
+
+Detected budget shortage and provided adjustment suggestions.
+
+
+### Date Conflict Case
+
+Input:
+
+Travel dates conflict with requested duration.
+
+
+Result:
+
+Detected inconsistency and requested confirmation.
 
 
 ## Tech Stack
 
 - Dify Agent
 - Large Language Model (LLM)
-- Knowledge Base
-- Prompt Engineering
-- Tool Calling
+- Knowledge Base (RAG)
+- API Tools
 
 
-## Example
+## Demo
 
-Input:
+Dify Web App:
 
-Paris → Interlaken → Milan
-
-10 days
-
-2 travelers
-
-Budget: 20,000 RMB
+(Add your Dify URL here)
 
 
-Output:
+## Screenshots
 
-- Complete itinerary
-- Budget analysis
-- Transportation plan
-- Accommodation suggestions
-
-
-## Project Screenshots
-
-(Add screenshots here)
+Testing screenshots will be added here.
 
 
 ## Future Improvements
 
-- Real-time weather API integration
-- Hotel search API
-- Transportation API
-- Flight information API
-- Multi-turn travel assistant
+- Real-time flight search API
+- Hotel booking API integration
+- Weather API integration
+- Personalized recommendation system
