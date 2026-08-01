@@ -4,8 +4,6 @@
 
 # AI Travel Planner Agent
 
-# AI Travel Planner Agent
-
 An AI travel planning assistant built with Dify Agent and LLM.
 
 ## Project Overview
@@ -251,3 +249,8 @@ Before generating the final answer, the agent checks:
 - Budget constraints
 - Travel feasibility
 - Missing information
+- ## Agent Architecture
+
+The workflow design:
+
+![Workflow Architecture](images/workflow-architecture.png)
