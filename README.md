@@ -164,3 +164,36 @@ Testing screenshots will be added here.
 - Hotel booking API integration
 - Weather API integration
 - Personalized recommendation system
+- ## Demo Screenshots
+
+### Normal Travel Planning
+
+![Normal Result](images/normal-result1.png)
+
+
+### Budget Validation
+
+![Budget Test](images/budget-test1.png)
+
+
+### Date Conflict Detection
+
+![Date Conflict](images/date-conflict-test.png)
+## Tech Stack
+
+- Dify Agent
+- Large Language Model (LLM)
+- Knowledge Base / RAG
+- Prompt Engineering
+- Workflow Design
+- AI Application Development
+- ## Project Status
+
+Completed v1.0
+
+Implemented:
+- User requirement extraction
+- Travel plan generation
+- Budget feasibility analysis
+- Knowledge retrieval
+- Output validation
