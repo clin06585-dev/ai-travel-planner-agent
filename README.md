@@ -201,7 +201,7 @@ Implemented:
 
 Dify Agent Demo:
 
-[(Add your Dify public URL here)](http://localhost/agent/lQex9aWHtoslys9Z)
+[[(Add your Dify public URL here)](http://localhost/agent/lQex9aWHtoslys9Z)](http://localhost/agent/lQex9aWHtoslys9Z)
 
 
 ## Key Design Highlights
