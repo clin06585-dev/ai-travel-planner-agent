@@ -1,3 +1,9 @@
+![Dify](https://img.shields.io/badge/Built%20with-Dify-blue)
+![LLM](https://img.shields.io/badge/AI-LLM-green)
+![RAG](https://img.shields.io/badge/RAG-enabled-orange)
+
+# AI Travel Planner Agent
+
 # AI Travel Planner Agent
 
 An AI travel planning assistant built with Dify Agent and LLM.
