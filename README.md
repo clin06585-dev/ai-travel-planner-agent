@@ -197,3 +197,51 @@ Implemented:
 - Budget feasibility analysis
 - Knowledge retrieval
 - Output validation
+## Demo
+
+Dify Agent Demo:
+
+[(Add your Dify public URL here)](http://localhost/agent/lQex9aWHtoslys9Z)
+
+
+## Key Design Highlights
+
+### 1. Requirement Understanding
+
+The agent extracts key travel requirements from user input:
+
+- Destination
+- Travel dates
+- Duration
+- Number of travelers
+- Budget
+- Travel preferences
+
+
+### 2. Budget Feasibility Analysis
+
+The system evaluates whether the user's budget is realistic based on:
+
+- Accommodation cost
+- Transportation cost
+- Food expenses
+- Activity expenses
+
+
+### 3. Knowledge Base Integration
+
+The agent uses knowledge retrieval to improve:
+
+- Destination information
+- Travel rules
+- Recommendation accuracy
+
+
+### 4. Output Validation
+
+Before generating the final answer, the agent checks:
+
+- Date consistency
+- Budget constraints
+- Travel feasibility
+- Missing information
