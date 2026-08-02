@@ -463,3 +463,10 @@ Implemented:
 - Automated regression testing
 - Multi-language output
 - Personalized travel preference profiles
+- ## Documentation
+
+Detailed project documentation:
+
+- [Agent Design](docs/agent-design.md)
+- [Workflow Design](docs/workflow.md)
+- [Prompt Design](docs/prompt-design.md)
